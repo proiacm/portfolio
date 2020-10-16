@@ -15,10 +15,11 @@ class App extends Component {
         <Nav animatedText={<Typical steps={['Hi, I\'m CiaraMaria...', 1000, 'and I\'m a software developer!', 500]}
         loop={Infinity}
         wrapper="h1"/>}/>
-        <About loopText={ <TextLoop>
+        <About loopText={<TextLoop interval={2000}>
                     <span>build something together.</span>
+                    <span>solve a problem.</span>
                     <span>grab coffee.</span>
-                    <span>swap memes.</span>
+                    <span>share memes.</span>
                     </TextLoop>} />
         <Projects />
         <Projects />
