@@ -1,8 +1,14 @@
 .About {
     width: 100%;
     margin: 26px auto;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 3px #ccc;
+    box-shadow: 0 2px 3px #A45D29;
     padding: 100px;
     text-align: center;
+}
+
+.About-img {
+    background-image: url('https://i.imgur.com/65ecJEb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
 }
