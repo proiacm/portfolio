@@ -5,6 +5,7 @@ import Contact from './Contact/Contact';
 import Projects from './Projects/Projects';
 import Nav from './Nav/Nav';
 import Typical from 'react-typical'
+import TextLoop from "react-text-loop";
 
 class App extends Component {
 
@@ -14,7 +15,11 @@ class App extends Component {
         <Nav animatedText={<Typical steps={['Hi, I\'m CiaraMaria...', 1000, 'and I\'m a software developer!', 500]}
         loop={Infinity}
         wrapper="h1"/>}/>
-        <About />
+        <About loopText={ <TextLoop>
+                    <span>build something together.</span>
+                    <span>grab coffee.</span>
+                    <span>swap memes.</span>
+                    </TextLoop>} />
         <Projects />
         <Projects />
         <Projects />
