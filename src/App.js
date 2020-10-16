@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Nav animatedText={<Typical steps={['Hi, I\'m CiaraMaria', 1000, 'and I\'m a software developer!', 500]}
+        <Nav animatedText={<Typical steps={['Hi, I\'m CiaraMaria...', 1000, 'and I\'m a software developer!', 500]}
         loop={Infinity}
         wrapper="h1"/>}/>
         <About />
