@@ -1,15 +1,26 @@
 .About {
     margin: 26px auto;
     box-shadow: 0 2px 3px #AF8D86;
-    padding: 100px;
+    padding: 50px;
     text-align: center;
     color: #292928;
     margin-top: auto;
+    background-color: rgb(228, 234, 236);
 }
 
-.About-img {
-    background-image: url('https://i.imgur.com/65ecJEb.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -100px;
+img {
+    border: 1px solid #AF8D86;
+    box-shadow: 0 2px 3px #AF8D86;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    position: relative;
+    display: block;
+    left: 10px;
+}
+
+.About-text {
+    position: relative;
+    bottom: 200px;
+    left: 150px;
 }

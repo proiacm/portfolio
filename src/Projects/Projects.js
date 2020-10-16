@@ -4,8 +4,8 @@ import './Projects.css'
 const Projects = () => {
     
     return (
-        <div className='Projects-card'>
-            <div className='Projects'>
+        <div className='Project-card'>
+            <div className='Project'>
                 Feature demo here.
             </div>
         </div>

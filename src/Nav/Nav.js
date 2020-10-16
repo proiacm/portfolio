@@ -1,12 +1,15 @@
 import React from 'react';
-import './Nav.css'
+import './Nav.css';
 
-const Nav = () => {
+const Nav = (props) => {
     return (
-        <div className='Nav'>
-            About | Contact | Projects
+        <div className='Nav-img'>
+            <div className='Nav'>
+                {props.animatedText}
+            </div>
         </div>
     )
 }
 
 export default Nav; 
+

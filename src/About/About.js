@@ -1,14 +1,15 @@
 import React from 'react';
-import './About.css';
+import './About.css'
 
 const About = () => {
     return (
-        <div className='About-img'>
-            <div className='About'>
-            <h1>I'm CiaraMaria and I'm a Software Developer!</h1> 
-            <p>I leverage empathy and experience in building client relationships while designing adaptive, aesthetic applications.</p>
+            <div className='About'>  
+                <div className='About-img'><img src='https://i.imgur.com/6ah5IR8m.png'></img></div>
+                    <div className='About-text'>
+                        I leverage empathy and experience in building client relationships
+                        while designing functional, aesthetic applications.   
+                    </div>
             </div>
-        </div>
     )
 }
 
