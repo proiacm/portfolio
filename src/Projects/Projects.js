@@ -1,9 +1,13 @@
 import React from 'react';
+import './Projects.css'
 
 const Projects = () => {
+    
     return (
-        <div>
-            Feature demos here.
+        <div className='Projects-card'>
+            <div className='Projects'>
+                Feature demo here.
+            </div>
         </div>
     )
 }

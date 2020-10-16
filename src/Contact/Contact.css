@@ -1,9 +1,10 @@
 .Contact {
-    width: 100%;
     margin: 26px auto;
-    box-shadow: 0 2px 3px #A45D29;
+    box-shadow: 0 2px 3px #AF8D86;
     padding: 100px;
     text-align: center;
+    color: #D8DEE0;
+    margin-bottom: auto;
 }
 
 .Contact-img {
@@ -11,4 +12,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -400px;
+}
+
+a:link{
+	color: #D8DEE0;
+}
+
+a:visited{
+	color: rgb(235, 198, 191);
+}
+
+a:hover{
+    color: #AF8D86;
 }

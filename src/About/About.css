@@ -1,9 +1,10 @@
 .About {
-    width: 100%;
     margin: 26px auto;
-    box-shadow: 0 2px 3px #A45D29;
+    box-shadow: 0 2px 3px #AF8D86;
     padding: 100px;
     text-align: center;
+    color: #292928;
+    margin-top: auto;
 }
 
 .About-img {
