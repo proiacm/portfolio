@@ -14,7 +14,7 @@ class App extends Component {
     projects: [
      { name: 'Traveler', link: 'https://github.com/proiacm/traveler', gif:'https://media.giphy.com/media/hgg0zI4EhUAg3QgYAl/giphy.gif'},
      { name: 'Glamlex', link:'https://github.com/proiacm/glamlex_sinatra_project', gif: 'https://media.giphy.com/media/UpnkiPR6CAq7HqtI87/giphy.gif'},
-     { name: 'Untriggered', link: 'https://github.com/proiacm/untriggered', gif:'https://media.giphy.com/media/fUIKuvsGMiVAjtD80g/giphy.gif'}
+     { name: 'Untriggered', link: 'https://github.com/proiacm/untriggered', gif:'https://media.giphy.com/media/PGNdCyJiw2vtilMvIO/giphy.gif'}
    ]
  }
 
@@ -36,6 +36,9 @@ class App extends Component {
                     <span>solve a problem.</span>
                     <span>grab coffee.</span>
                     <span>share memes.</span>
+                    <span>pair program.</span>
+                    <span>learn something new.</span>
+                    <span>innovate.</span>
                     </TextLoop>} />
         {projectList}
         <Contact />
