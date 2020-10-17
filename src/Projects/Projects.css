@@ -4,6 +4,7 @@
     width: 400px;
     display: inline-block;
     padding: 10px;
+    
 }
 
 .Project {
@@ -14,7 +15,11 @@
     color: #323231;
     background-color: rgb(228, 234, 236);
     font-family: 'Philosopher', sans-serif;
-}
+} 
+
+.Project:hover {
+    transform: scale(1.1);
+    }
 
 .Project-img {
     
