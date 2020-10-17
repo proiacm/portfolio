@@ -6,9 +6,8 @@ const Projects = (props) => {
     return (
         <div className='Project-card'>
             <div className='Project'>
-                {props.name}
-                <a href="https://www.qries.com/">
-                    <img src="https://www.qries.com/images/banner_logo.png"/>
+                <a target='_blank' href={props.link}>
+                    <img className='Project-img' src={props.gif}/>
                 </a>
             </div>
         </div>
