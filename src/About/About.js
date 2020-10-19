@@ -4,7 +4,7 @@ import './About.css'
 const About = (props) => {
     return (
             <div className='About'>  
-                <img className='About-img' src='https://i.imgur.com/6ah5IR8.png'></img>
+                <img className='About-img' src='https://i.imgur.com/oOhU8xs.jpg'></img>
                     <div className='About-text'>
                         I leverage my empathy and experience in building client relationships
                         while designing functional, aesthetic applications. <br/> <br/>
