@@ -35,8 +35,8 @@ class App extends Component {
                     <span>build something together.</span>
                     <span>solve a problem.</span>
                     <span>grab coffee.</span>
-                    <span>share memes.</span>
                     <span>pair program.</span>
+                    <span>share memes.</span>
                     <span>learn something new.</span>
                     <span>innovate.</span>
                     </TextLoop>} />
